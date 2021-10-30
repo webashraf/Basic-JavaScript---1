@@ -1,3 +1,4 @@
+// Day 12 Class - 7
 var x = 5;
 var y = 10.5;
 
@@ -12,7 +13,7 @@ var b = "10.5";
 // var d = parseInt(b);
 // var d = +y; 
 
-// Fixed number valu show >>
+// Fixed number value show >>
 // x.toFixed(2);
 console.log( x + z)
 
