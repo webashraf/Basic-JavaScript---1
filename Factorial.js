@@ -8,6 +8,7 @@
 // console.log(double(100));
 // console.log(double(30));
 // console.log(double(n[2]));
+// console.log(double(n[0]))
 
 
 // // Another Practice
@@ -61,22 +62,38 @@
 //     console.log('This is not a leep Year.')
 // }
 
+
+// Interactive mathod
 // Factorial Math calculation
 // let factorial = 1;
 // for (var i = 1; i <= 5; i++) {
-//     var factoria = factorial * i;
-//     console.log(i, factoria);
+
+//     factorial = factorial * i;
+//     // console.log(i, factorial);
 // }
 // console.log(factorial)
 
 // Factorial in while loop
-let x = 1;
-let factor = 1;
-while(x <= 10){
-    factor = factor * x;
-    console.log(x, factor);
-    x++;
-}
+// let x = 1;
+// let factor = 1;
+// while(x <= 10){
+//     factor = factor * x;
+//     console.log(x, factor);
+//     x++;
+// }
+// Factorial in while loop with function program
+// function factor(n){
+//     var x = 1;
+//     let factorial = 1;
+//     while(x <= n){
+//         factorial = factorial * x;
+//         x++;
+//     }
+//     return factorial
+// }
+//  let result = factor(10);
+//  console.log(result);
+
 
 
 // Factorial with for loop in fanction
@@ -89,3 +106,33 @@ while(x <= 10){
 // }
 // var result = factorial(100);
 // console.log(result);
+
+// Factorial in recursive method.
+// 10! = 1*2*3*4*5*6*7*8*9*10
+// 10! = (10-1)*10
+// function factor(n){
+//     if(n == 0){
+//         return 1;
+//     }
+//     else{
+//         return n * factor(n-1);
+//     }
+// }
+// let result = factor(10);
+// console.log(result)
+
+// Nagative factorial
+
+// let factor = 1;
+// for(let i = 10; i >= 1; i--){
+//     factor = factor * i
+// }
+// console.log(factor)
+
+// let factors = 1;
+// let i = 10;
+// while(i >= 1){
+//     factors = factors * i;
+//     i--;
+// }
+// console.log(factors);
